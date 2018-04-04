@@ -26,7 +26,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li class="active"><a href="<?php echo base_url(); ?>">Beranda</a></li>
-        <li><a href="<?php echo site_url('Welcome/about'); ?>">Tentang Saya</a></li>
+        <li><a href="<?php echo site_url('Welcome/about');?>">Tentang Saya</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -40,19 +40,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </nav>
 <div class="container">
   <div class="jumbotron">
-    <h1>Hello CodeIgniter + Bootstrap</h1>
-    <p>
-      Consectetur unde eius ducimus esse obcaecati perferendis, ad
-      veritatis quo, nostrum! Dolor consequuntur assumenda quisquam eos
-      repellat Magni voluptates sed neque odio officiis? Laborum aliquid
-      obcaecati eaque sint error Nam.
-    </p>
-    <p>
-      <a class="btn btn-lg btn-primary"
-        href="http://getbootstrap.com/docs/3.3/" role="button">
-        Lihat Dokumentasi Bootstrap 3 &raquo;
-      </a>
-    </p>
+    <h1>About</h1>
+    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Biodata</button>
+  <div id="demo" class="collapse">
+    <div class="panel-body">NIM: 1641720171</div>
+    <div class="panel-body">Nama: Abror Rahmatullah</div>
+    <div class="panel-body">Gender: Male</div>
+    <div class="panel-body">Hobi: Membuat masalah</div>
   </div>
 </div>
 <script src="<?php echo base_url('assets/js/jquery-3.3.1.min.js') ?>"></script>
